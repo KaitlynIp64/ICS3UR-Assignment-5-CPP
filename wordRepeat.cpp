@@ -8,8 +8,6 @@
 #include <iostream>
 #include <string>
 
-using-declarations std;
-
 int main() {
     // this function defines the variables
     std::string integerAsString;
@@ -29,7 +27,7 @@ int main() {
 
         for (int loopCounter = 1; loopCounter <= numInput; loopCounter++)
             repeat += wordInput;
-        cout << repeat;
+        std::cout << repeat;
     } catch (std::invalid_argument) {
         std::cout << "That was not a valid input.";
     }
